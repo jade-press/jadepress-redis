@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/jade-press/jadepress-redis.svg?branch=master)](https://travis-ci.org/jade-press/jadepress-redis)
 
-jade-press plugin which add qrcode api `/qr?text={text}`
+jade-press plugin which replace mongodb session store with redis session store.
 
 ## use
 ```javascript
@@ -31,13 +31,10 @@ gulp install
 ## test
 ```bash
 
-#makesure you can run jade-press
+#makesure you can run jade-press and redis ready
 
 git clone https://github.com/jade-press/jadepress-redis.git
 cd jadepress-redis
-npm install node-gyp -g
-npm install mocha -g
-npm install bower -g
 npm install
 bower install
 npm i jadepress-theme-pi
