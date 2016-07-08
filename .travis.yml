@@ -33,6 +33,7 @@ before_install:
   - sudo apt-get install -y mongodb-org
 before_script:
   - npm install -g bower
+  - bower install jade-press
   - npm i jadepress-theme-pi
   - npm i jade-press
   - mkdir node_modules/jadepress-redis
